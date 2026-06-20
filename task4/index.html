@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Clone</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="left-nav">
+        <i class="fas fa-bars" id="menuBtn"></i>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            YouTube
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Search">
+
+        <button>
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="right-nav">
+
+        <i class="fas fa-video"></i>
+
+        <i class="fas fa-bell"></i>
+
+        <img
+        src="https://i.pravatar.cc/40"
+        class="profile">
+
+    </div>
+
+</header>
+
+<div class="categories">
+
+    <button class="active">All</button>
+    <button>Gaming</button>
+    <button>Music</button>
+    <button>Coding</button>
+    <button>Sports</button>
+    <button>News</button>
+
+</div>
+
+<div class="main">
+
+    <aside id="sidebar">
+
+        <div class="item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+
+        <div class="item">
+            <i class="fas fa-bolt"></i>
+            <span>Shorts</span>
+        </div>
+
+        <div class="item">
+            <i class="fas fa-play"></i>
+            <span>Subscriptions</span>
+        </div>
+
+        <div class="item">
+            <i class="fas fa-clock"></i>
+            <span>History</span>
+        </div>
+
+    </aside>
+
+    <section
+    class="video-container"
+    id="videoContainer">
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Mission Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>
+                Daily Mission Planner
+            </h1>
+
+            <p>
+                Plan, Track and Complete
+                Your Daily Goals
+            </p>
+
+        </div>
+
+        <div class="top-section">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter Mission">
+
+            <input
+                type="date"
+                id="taskDate">
+
+            <input
+                type="time"
+                id="taskTime">
+
+            <select id="priority">
+
+                <option value="high">
+                    High Priority
+                </option>
+
+                <option value="medium">
+                    Medium Priority
+                </option>
+
+                <option value="low">
+                    Low Priority
+                </option>
+
+            </select>
+
+            <button id="addBtn">
+                Add Mission
+            </button>
+
+        </div>
+
+        <div class="search-area">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search Mission...">
+
+        </div>
+
+        <div class="filters">
+
+            <button
+                class="filter-btn"
+                data-filter="all">
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="high">
+                High
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="medium">
+                Medium
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="low">
+                Low
+            </button>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="card">
+
+                <h2 id="totalTasks">
+                    0
+                </h2>
+
+                <p>
+                    Total Missions
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2 id="completedTasks">
+                    0
+                </h2>
+
+                <p>
+                    Completed
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2 id="pendingTasks">
+                    0
+                </h2>
+
+                <p>
+                    Pending
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="progress-container">
+
+            <div id="progressBar">
+
+            </div>
+
+        </div>
+
+        <ul id="taskList">
+
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
