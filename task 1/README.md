@@ -1,1 +1,1 @@
-# Task-1
+This project is a modern and responsive personal portfolio website designed as a developer dashboard. It showcases personal information, technical skills, projects, educational background, and contact details in an interactive and visually appealing manner. The website includes features such as a glassmorphism user interface, animated skill bars, typing text effect, dark/light mode toggle, responsive navigation, and smooth animations to enhance user experience across different devices.
